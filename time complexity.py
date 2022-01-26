@@ -1,5 +1,4 @@
 import time
-import numpy
 
 count = 1234
 tt=[]
@@ -7,7 +6,10 @@ for i in range(20):
     start = time.time()
     for _ in range(count):
 
-        ## <TEST_CODE> ##
+        num=[]
+        for i in range(1,10):
+            num.append(i)
+
 
     tt.append(time.time() - start)
     print(i,"..",end=" ")
