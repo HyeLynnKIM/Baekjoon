@@ -4,7 +4,6 @@ def star(x):
     if x==3:
         return ['***', '* *', '***']
     stars = star(x//3)
-    print(x, stars)
     arr=[]
     for st in stars:
         arr.append(st*3)
